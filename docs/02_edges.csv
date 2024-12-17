@@ -1,0 +1,71 @@
+base_name,source_type,source_label,connection_type,connection_label,target_type,target_label,connection_id,source_shape_id,target_shape_id
+DimAdvice,Dimension,Advice,LoosePrecedence,,Attribute,Advice ID,DimAdvice.0bGNPsY97k1aB0GLz53n-10,DimAdvice.0bGNPsY97k1aB0GLz53n-1,DimAdvice.0bGNPsY97k1aB0GLz53n-7
+DimAdviceLine,Dimension,Advice Line,LoosePrecedence,,Attribute,Advice Line ID,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-13,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-1,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-7
+DimAdviceLine,Dimension,Advice Line,LoosePrecedence,,Attribute,Advice ID,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-14,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-1,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-10
+DimAdviceLine,Attribute,Advice ID,LoosePrecedence,,Dimension,Advice,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-21,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-10,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-15
+DimArticle,Dimension,Article,LoosePrecedence,,Hierarchy,Article Hierarchy,DimArticle.3ULKT6b0YpKw7mlDAFzM-26,DimArticle.3ULKT6b0YpKw7mlDAFzM-1,DimArticle.3ULKT6b0YpKw7mlDAFzM-13
+DimArticle,Hierarchy,Article Hierarchy,StrictPrecedence,,HierarchyLevel,Article,DimArticle.3ULKT6b0YpKw7mlDAFzM-27,DimArticle.3ULKT6b0YpKw7mlDAFzM-13,DimArticle.3ULKT6b0YpKw7mlDAFzM-21
+DimArticle,HierarchyLevel,Article,LoosePrecedence,,Attribute,EAN,DimArticle.3ULKT6b0YpKw7mlDAFzM-31,DimArticle.3ULKT6b0YpKw7mlDAFzM-21,DimArticle.3ULKT6b0YpKw7mlDAFzM-28
+DimCalendar,Dimension,Calendar,LoosePrecedence,,Hierarchy,QM Hierarchy (no year),DimCalendar.f77LYvtL0lH_vqSuSwCJ-39,DimCalendar.f77LYvtL0lH_vqSuSwCJ-1,DimCalendar.f77LYvtL0lH_vqSuSwCJ-7
+DimCalendar,HierarchyLevel,Quarter (no year),StrictPrecedence,,HierarchyLevel,Month (no year),DimCalendar.vdX0nlRlNV5u23rPeZXY-66,DimCalendar.vdX0nlRlNV5u23rPeZXY-55,DimCalendar.vdX0nlRlNV5u23rPeZXY-61
+DimCalendar,HierarchyLevel,Year,StrictPrecedence,,HierarchyLevel,Quarter,DimCalendar.vdX0nlRlNV5u23rPeZXY-78,DimCalendar.vdX0nlRlNV5u23rPeZXY-67,DimCalendar.vdX0nlRlNV5u23rPeZXY-73
+DimCalendar,Hierarchy,QM Hierarchy (no year),LoosePrecedence,,HierarchyLevel,Quarter (no year),DimCalendar.vdX0nlRlNV5u23rPeZXY-91,DimCalendar.f77LYvtL0lH_vqSuSwCJ-7,DimCalendar.vdX0nlRlNV5u23rPeZXY-55
+DimCalendar,HierarchyLevel,Year,StrictPrecedence,,HierarchyLevel,Month,DimCalendar.vdX0nlRlNV5u23rPeZXY-101,DimCalendar.vdX0nlRlNV5u23rPeZXY-79,DimCalendar.vdX0nlRlNV5u23rPeZXY-96
+DimCalendar,HierarchyLevel,Quarter,StrictPrecedence,,HierarchyLevel,Month,DimCalendar.vdX0nlRlNV5u23rPeZXY-102,DimCalendar.vdX0nlRlNV5u23rPeZXY-73,DimCalendar.vdX0nlRlNV5u23rPeZXY-96
+DimCalendar,HierarchyLevel,Year,StrictPrecedence,,HierarchyLevel,Week,DimCalendar.vdX0nlRlNV5u23rPeZXY-108,DimCalendar.vdX0nlRlNV5u23rPeZXY-85,DimCalendar.vdX0nlRlNV5u23rPeZXY-103
+DimCalendar,HierarchyLevel,Week,StrictPrecedence,,HierarchyLevel,Day,DimCalendar.vdX0nlRlNV5u23rPeZXY-114,DimCalendar.vdX0nlRlNV5u23rPeZXY-103,DimCalendar.vdX0nlRlNV5u23rPeZXY-109
+DimCalendar,HierarchyLevel,Month,StrictPrecedence,,HierarchyLevel,Day,DimCalendar.vdX0nlRlNV5u23rPeZXY-115,DimCalendar.vdX0nlRlNV5u23rPeZXY-96,DimCalendar.vdX0nlRlNV5u23rPeZXY-109
+DimCalendar,HierarchyLevel,Month (no year),StrictPrecedence,,HierarchyLevel,Day,DimCalendar.vdX0nlRlNV5u23rPeZXY-116,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,DimCalendar.vdX0nlRlNV5u23rPeZXY-109
+DimCalendar,HierarchyLevel,Day,LoosePrecedence,,Attribute,Date,DimCalendar.vdX0nlRlNV5u23rPeZXY-149,DimCalendar.vdX0nlRlNV5u23rPeZXY-109,DimCalendar.vdX0nlRlNV5u23rPeZXY-146
+DimCalendar,HierarchyLevel,Day,LoosePrecedence,,Attribute,Weekday,DimCalendar.vdX0nlRlNV5u23rPeZXY-153,DimCalendar.vdX0nlRlNV5u23rPeZXY-109,DimCalendar.vdX0nlRlNV5u23rPeZXY-150
+DimCalendar,HierarchyLevel,Month (no year),LoosePrecedence,,FullyExclusive,by temperature,DimCalendar.vdX0nlRlNV5u23rPeZXY-236,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,DimCalendar.vdX0nlRlNV5u23rPeZXY-333
+DimCalendar,HierarchyLevel,Month (no year),LoosePrecedence,,FullyOverlapping,by weather,DimCalendar.vdX0nlRlNV5u23rPeZXY-275,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,DimCalendar.vdX0nlRlNV5u23rPeZXY-338
+DimCalendar,FullyExclusive,by temperature,LoosePrecedence,,DimensionScope,warm months,DimCalendar.vdX0nlRlNV5u23rPeZXY-336,DimCalendar.vdX0nlRlNV5u23rPeZXY-333,DimCalendar.vdX0nlRlNV5u23rPeZXY-318
+DimCalendar,FullyExclusive,by temperature,LoosePrecedence,,DimensionScope,cold months,DimCalendar.vdX0nlRlNV5u23rPeZXY-337,DimCalendar.vdX0nlRlNV5u23rPeZXY-333,DimCalendar.vdX0nlRlNV5u23rPeZXY-321
+DimCalendar,FullyOverlapping,by weather,LoosePrecedence,,DimensionScope,sunny months,DimCalendar.vdX0nlRlNV5u23rPeZXY-341,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-324
+DimCalendar,FullyOverlapping,by weather,LoosePrecedence,,DimensionScope,windy months,DimCalendar.vdX0nlRlNV5u23rPeZXY-342,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-327
+DimCalendar,FullyOverlapping,by weather,LoosePrecedence,,DimensionScope,rainy months,DimCalendar.vdX0nlRlNV5u23rPeZXY-343,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-330
+DimClient,Dimension,Client,LoosePrecedence,,Hierarchy,Client Hierarchy,DimClient.Q3E0rVoIe7EGEsI8NTwv-26,DimClient.Q3E0rVoIe7EGEsI8NTwv-1,DimClient.Q3E0rVoIe7EGEsI8NTwv-7
+DimClient,Hierarchy,Client Hierarchy,StrictPrecedence,,HierarchyLevel,Client,DimClient.Q3E0rVoIe7EGEsI8NTwv-27,DimClient.Q3E0rVoIe7EGEsI8NTwv-7,DimClient.Q3E0rVoIe7EGEsI8NTwv-15
+DimClient,HierarchyLevel,Client,LoosePrecedence,,Attribute,Name,DimClient.Q3E0rVoIe7EGEsI8NTwv-31,DimClient.Q3E0rVoIe7EGEsI8NTwv-15,DimClient.Q3E0rVoIe7EGEsI8NTwv-23
+DimClient,HierarchyLevel,Client,LoosePrecedence,,Attribute,Postcode,DimClient.Q3E0rVoIe7EGEsI8NTwv-32,DimClient.Q3E0rVoIe7EGEsI8NTwv-15,DimClient.Q3E0rVoIe7EGEsI8NTwv-20
+DimCountry,Dimension,Country,LoosePrecedence,,Hierarchy,Country Hierarchy,DimCountry._IXQpRyezbz_NSWvRTIf-31,DimCountry._IXQpRyezbz_NSWvRTIf-1,DimCountry._IXQpRyezbz_NSWvRTIf-13
+DimCountry,Hierarchy,Country Hierarchy,StrictPrecedence,,HierarchyLevel,Region,DimCountry._IXQpRyezbz_NSWvRTIf-32,DimCountry._IXQpRyezbz_NSWvRTIf-13,DimCountry._IXQpRyezbz_NSWvRTIf-21
+DimCountry,HierarchyLevel,Region,StrictPrecedence,,HierarchyLevel,Country,DimCountry._IXQpRyezbz_NSWvRTIf-33,DimCountry._IXQpRyezbz_NSWvRTIf-21,DimCountry._IXQpRyezbz_NSWvRTIf-26
+DimLocation,HierarchyLevel,Country,LoosePrecedence,,Attribute,Country,DimLocation.pI8diWF3I-Tx-rrlMoEu-53,DimLocation.pI8diWF3I-Tx-rrlMoEu-42,DimLocation.pI8diWF3I-Tx-rrlMoEu-39
+DimLocation,HierarchyLevel,Location,LoosePrecedence,,Attribute,Name,DimLocation.pI8diWF3I-Tx-rrlMoEu-54,DimLocation.pI8diWF3I-Tx-rrlMoEu-23,DimLocation.pI8diWF3I-Tx-rrlMoEu-33
+DimLocation,HierarchyLevel,Location,LoosePrecedence,,Attribute,Address,DimLocation.pI8diWF3I-Tx-rrlMoEu-55,DimLocation.pI8diWF3I-Tx-rrlMoEu-23,DimLocation.pI8diWF3I-Tx-rrlMoEu-36
+DimLocation,HierarchyLevel,Zone,StrictPrecedence,,HierarchyLevel,Location,DimLocation.pI8diWF3I-Tx-rrlMoEu-56,DimLocation.pI8diWF3I-Tx-rrlMoEu-47,DimLocation.pI8diWF3I-Tx-rrlMoEu-23
+DimLocation,HierarchyLevel,Location Type,StrictPrecedence,,HierarchyLevel,Location,DimLocation.pI8diWF3I-Tx-rrlMoEu-57,DimLocation.pI8diWF3I-Tx-rrlMoEu-28,DimLocation.pI8diWF3I-Tx-rrlMoEu-23
+DimLocation,Hierarchy,Functional Hierarchy,StrictPrecedence,,HierarchyLevel,Location Type,DimLocation.pI8diWF3I-Tx-rrlMoEu-58,DimLocation.pI8diWF3I-Tx-rrlMoEu-7,DimLocation.pI8diWF3I-Tx-rrlMoEu-28
+DimLocation,Hierarchy,Geographical Hierarchy,StrictPrecedence,,HierarchyLevel,Country,DimLocation.pI8diWF3I-Tx-rrlMoEu-59,DimLocation.pI8diWF3I-Tx-rrlMoEu-15,DimLocation.pI8diWF3I-Tx-rrlMoEu-42
+DimLocation,HierarchyLevel,Country,StrictPrecedence,,HierarchyLevel,Zone,DimLocation.pI8diWF3I-Tx-rrlMoEu-60,DimLocation.pI8diWF3I-Tx-rrlMoEu-42,DimLocation.pI8diWF3I-Tx-rrlMoEu-47
+DimLocation,Dimension,Location,LoosePrecedence,,Hierarchy,Geographical Hierarchy,DimLocation.pI8diWF3I-Tx-rrlMoEu-61,DimLocation.pI8diWF3I-Tx-rrlMoEu-1,DimLocation.pI8diWF3I-Tx-rrlMoEu-15
+DimLocation,Dimension,Location,LoosePrecedence,,Hierarchy,Functional Hierarchy,DimLocation.pI8diWF3I-Tx-rrlMoEu-62,DimLocation.pI8diWF3I-Tx-rrlMoEu-1,DimLocation.pI8diWF3I-Tx-rrlMoEu-7
+DimLocation,Attribute,Country,LoosePrecedence,,Dimension,Location,DimLocation.pI8diWF3I-Tx-rrlMoEu-69,DimLocation.pI8diWF3I-Tx-rrlMoEu-39,DimLocation.pI8diWF3I-Tx-rrlMoEu-63
+DimProcessStatus,Dimension,Process Status,LoosePrecedence,,Hierarchy,Process Status Hierarchy,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-25,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-1,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-7
+DimProcessStatus,Hierarchy,Process Status Hierarchy,StrictPrecedence,,HierarchyLevel,Level 1,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-26,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-7,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-15
+DimProcessStatus,HierarchyLevel,Level 1,StrictPrecedence,,HierarchyLevel,Level X,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-32,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-15,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-20
+DimProcessStatus,HierarchyLevel,Level X,StrictPrecedence,,HierarchyLevel,Level X,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-73,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-20,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-68
+FactAdvice,MeasureGroup,Advice,LoosePrecedence,,Dimension,Client,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-56,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-1,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-8
+FactAdvice,MeasureGroup,Advice,LoosePrecedence,,Dimension,Location,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-57,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-1,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-38
+FactAdvice,MeasureGroup,Advice,LoosePrecedence,,Dimension,Advice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-59,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-1,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-32
+FactAdvice,MeasureGroup,Advice,LoosePrecedence,,Dimension,Process Status,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-60,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-1,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-44
+FactAdvice,MeasureGroup,Advice,LoosePrecedence,transaction,Dimension,Calendar,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-61,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-1,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-26
+FactAdvice,MeasureGroup,Advice,LoosePrecedence,transaction,Dimension,Timestamp,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-62,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-1,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-14
+FactAdvice,MeasureGroup,Advice,LoosePrecedence,finished,Dimension,Calendar,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-63,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-1,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-20
+FactAdvice,MeasureGroup,Advice,LoosePrecedence,,MeasureDimension,Advice Measures,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-71,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-1,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-64
+FactAdvice,MeasureDimension,Advice Measures,LoosePrecedence,,DimensionMember,avg lines per advice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-83,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-64,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-77
+FactAdvice,DimensionMember,avg lines per advice,LoosePrecedence,,Function,<div>sum(Advice Line)&nbsp;</div><div>/ count()</div>,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-91,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-77,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-84
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,Dimension,Client,FactAdviceLine.GLuP2zMcqy0yixXODWUq-56,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-8
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,Dimension,Location,FactAdviceLine.GLuP2zMcqy0yixXODWUq-57,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-38
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,Dimension,Article,FactAdviceLine.GLuP2zMcqy0yixXODWUq-58,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-50
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,Dimension,Advice Line,FactAdviceLine.GLuP2zMcqy0yixXODWUq-59,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-32
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,Dimension,Process Status,FactAdviceLine.GLuP2zMcqy0yixXODWUq-60,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-44
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,transaction,Dimension,Calendar,FactAdviceLine.GLuP2zMcqy0yixXODWUq-61,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-26
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,transaction,Dimension,Timestamp,FactAdviceLine.GLuP2zMcqy0yixXODWUq-62,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-14
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,finished,Dimension,Calendar,FactAdviceLine.GLuP2zMcqy0yixXODWUq-63,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-20
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,MeasureDimension,Advice Line Measures,FactAdviceLine.GLuP2zMcqy0yixXODWUq-72,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-65
+FactAdviceLine,MeasureDimension,Advice Line Measures,LoosePrecedence,,DimensionMember,pieces,FactAdviceLine.GLuP2zMcqy0yixXODWUq-83,FactAdviceLine.GLuP2zMcqy0yixXODWUq-65,FactAdviceLine.GLuP2zMcqy0yixXODWUq-73
+FactAdviceLine,MeasureDimension,Advice Line Measures,LoosePrecedence,,DimensionMember,avg pieces per advice line,FactAdviceLine.GLuP2zMcqy0yixXODWUq-84,FactAdviceLine.GLuP2zMcqy0yixXODWUq-65,FactAdviceLine.GLuP2zMcqy0yixXODWUq-78
+FactAdviceLine,DimensionMember,avg pieces per advice line,LoosePrecedence,,Function,pieces / count(),FactAdviceLine.GLuP2zMcqy0yixXODWUq-92,FactAdviceLine.GLuP2zMcqy0yixXODWUq-78,FactAdviceLine.GLuP2zMcqy0yixXODWUq-85
