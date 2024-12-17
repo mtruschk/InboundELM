@@ -28,7 +28,7 @@ def extract_information(xml_path, base_name):
         shape_id = user_object.get('id')
 
         # Determine if this is a shape or a connection
-        if if btelligentLibrary == 'ELM' and shapetype in ["Hub", "Link", "Satellite", "Hub-to-Sat", "Hub-to-Link-N", "Hub-to-Link-1", "Reference", "Sat-to-Hub", "Comment", "BusinessVaultSatellite"]:
+        if btelligentLibrary == 'ELM' and shapetype in ["Hub", "Link", "Satellite", "Hub-to-Sat", "Hub-to-Link-N", "Hub-to-Link-1", "Reference", "Sat-to-Hub", "Comment", "BusinessVaultSatellite"]:
             mx_cell = user_object.find('./mxCell')
             
             if mx_cell.get('edge') == '1':  # It's a connection
