@@ -3,7 +3,7 @@ StandardInbound,Satellite,default,Sat-to-Hub,,Hub,Location,StandardInbound.tnuW1
 StandardInbound,Satellite,default,Sat-to-Hub,,Hub,Client,StandardInbound.tnuW1UExQAtQYmTLPYoE-187,StandardInbound.tnuW1UExQAtQYmTLPYoE-170,StandardInbound.tnuW1UExQAtQYmTLPYoE-178
 StandardInbound,Satellite,default,Sat-to-Hub,,Hub,Advice,StandardInbound.tnuW1UExQAtQYmTLPYoE-212,StandardInbound.tnuW1UExQAtQYmTLPYoE-195,StandardInbound.tnuW1UExQAtQYmTLPYoE-203
 StandardInbound,Satellite,default,Sat-to-Hub,,Hub,Advice Line,StandardInbound.tnuW1UExQAtQYmTLPYoE-232,StandardInbound.tnuW1UExQAtQYmTLPYoE-215,StandardInbound.tnuW1UExQAtQYmTLPYoE-223
-StandardInbound,Satellite,default,Sat-to-Hub,,Hub,<Hub>,StandardInbound.tnuW1UExQAtQYmTLPYoE-259,StandardInbound.tnuW1UExQAtQYmTLPYoE-242,StandardInbound.tnuW1UExQAtQYmTLPYoE-250
+StandardInbound,Satellite,default,Sat-to-Hub,,Hub,Article,StandardInbound.tnuW1UExQAtQYmTLPYoE-259,StandardInbound.tnuW1UExQAtQYmTLPYoE-242,StandardInbound.tnuW1UExQAtQYmTLPYoE-250
 StandardInbound,Satellite,Process Status,Sat-to-Hub,,Hub,Advice,StandardInbound.tnuW1UExQAtQYmTLPYoE-277,StandardInbound.tnuW1UExQAtQYmTLPYoE-269,StandardInbound.tnuW1UExQAtQYmTLPYoE-203
 StandardInbound,Satellite,Process Status,Sat-to-Hub,,Hub,Advice Line,StandardInbound.tnuW1UExQAtQYmTLPYoE-286,StandardInbound.tnuW1UExQAtQYmTLPYoE-278,StandardInbound.tnuW1UExQAtQYmTLPYoE-223
 StandardInbound,Reference,Process Status,Sat-to-Hub,,Satellite,Process Status,StandardInbound.tnuW1UExQAtQYmTLPYoE-299,StandardInbound.tnuW1UExQAtQYmTLPYoE-287,StandardInbound.tnuW1UExQAtQYmTLPYoE-269
@@ -13,5 +13,5 @@ StandardInbound,Hub,Client,Hub-to-Link-N,,Link,Link,StandardInbound.tnuW1UExQAtQ
 StandardInbound,Hub,Advice,Hub-to-Link-N,,Link,Link,StandardInbound.tnuW1UExQAtQYmTLPYoE-240,StandardInbound.tnuW1UExQAtQYmTLPYoE-203,StandardInbound.tnuW1UExQAtQYmTLPYoE-233
 StandardInbound,Hub,Advice Line,Hub-to-Link-1,,Link,Link,StandardInbound.tnuW1UExQAtQYmTLPYoE-241,StandardInbound.tnuW1UExQAtQYmTLPYoE-223,StandardInbound.tnuW1UExQAtQYmTLPYoE-233
 StandardInbound,Hub,Advice Line,Hub-to-Link-1,,Link,Link,StandardInbound.tnuW1UExQAtQYmTLPYoE-267,StandardInbound.tnuW1UExQAtQYmTLPYoE-223,StandardInbound.tnuW1UExQAtQYmTLPYoE-260
-StandardInbound,Hub,<Hub>,Hub-to-Link-N,,Link,Link,StandardInbound.tnuW1UExQAtQYmTLPYoE-268,StandardInbound.tnuW1UExQAtQYmTLPYoE-250,StandardInbound.tnuW1UExQAtQYmTLPYoE-260
+StandardInbound,Hub,Article,Hub-to-Link-N,,Link,Link,StandardInbound.tnuW1UExQAtQYmTLPYoE-268,StandardInbound.tnuW1UExQAtQYmTLPYoE-250,StandardInbound.tnuW1UExQAtQYmTLPYoE-260
 StandardInbound,Hub,Location,Hub-to-Link-N,,Link,Link,StandardInbound.tnuW1UExQAtQYmTLPYoE-301,StandardInbound.tnuW1UExQAtQYmTLPYoE-160,StandardInbound.tnuW1UExQAtQYmTLPYoE-188
